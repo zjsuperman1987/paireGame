@@ -15,7 +15,7 @@ import Status from './footer/PlayStatus';
 // 从vuex中拿出mapActions工具
 import {mapActions} from 'vuex';
 //状态枚举
-import {STATUS} from 'vuex/store/statusEnum';
+import {STATUS} from '../vuex/store/statusEnum';
 
 export default {
    //通过mapActions将actions映射到methods里

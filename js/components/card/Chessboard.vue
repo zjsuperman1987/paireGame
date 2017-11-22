@@ -11,7 +11,7 @@
 	//从vuex中拿出mapAcctions和mapGetters工具
 	import {mapActions,mapGetters} from 'vuex';
 
-	import {STATUS} from 'js/vuex/store/statusEnum';
+	import { STATUS } from '../../vuex/store/statusEnum';
 
 	export default {
 		data(){
@@ -85,7 +85,7 @@
 	align-items: center;
 	align-content: space-around;
 }
-.container: nth-child(4n) {
+.container:nth-child(4n) {
 	margin-right: 0px;
 }
 @media screen and (max-width: 450px) {
