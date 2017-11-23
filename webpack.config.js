@@ -1,4 +1,4 @@
-const {resolve} = require('path');
+const {resolve,join} = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -11,7 +11,7 @@ module.exports = {
     },
     devtool: '#eval-source-map',
     devServer: {
-        contentBase: resolve(__dirname, 'build'),
+        contentBase: join(__dirname, 'build'),
         compress: false,
         port: 8080,
         host: '0.0.0.0',

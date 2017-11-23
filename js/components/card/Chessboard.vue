@@ -1,7 +1,7 @@
 <template>
 	<div class="chessboard">
 		<!-- 遍历Card组件，为每个Card传入option定制其状态；并接受一个flipped的事件hook -->
-		<Card v-for="cart in cards" :option="cart" v-on:flipped="onFlipped"></Card>
+		<Card v-for="(card, index) of cards" :key="index" :option="card" v-on:flipped="onFlipped"></Card>
 	</div>
 </template>
 
@@ -29,7 +29,7 @@
 			...mapGetters([
 				'leftMatched',
 				'cards',
-				'status',		
+				'status'
 			])
 		},
 		methods: {
@@ -37,7 +37,7 @@
 			...mapActions([
 				'updateStatus',
 				'match',
-				'flipCards'			
+				'flipCards'	
 			]),
 			onFlipped(e){
 				//游戏开始后，第一次翻牌时，开始为游戏计时

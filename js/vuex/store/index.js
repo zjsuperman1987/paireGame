@@ -15,7 +15,7 @@ const state = {
 	elapsedMs: 0
 };
 
-export default new Vuex.store({
+export default new Vuex.Store({
 	state,
 	actions,
 	mutations,
