@@ -22,7 +22,7 @@ export default {
 
 	flips(st,cards) {
 		st.cards
-			.fliter(cc => cards.indexof(cc) >= 0)
+			.filter(cc => cards.indexOf(cc) >= 0)
 			.forEach(cc => {
 				cc.flipped = !cc.flipped;
 			});
@@ -40,5 +40,4 @@ export default {
 			return localStorage.setItem('highestSpeed', st.elapsedMs);
 		}
 	}
-
 }

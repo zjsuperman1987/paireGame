@@ -13,7 +13,7 @@ module.exports = {
     devServer: {
         contentBase: join(__dirname, 'build'),
         compress: false,
-        port: 8080,
+        port: 8098,
         host: '0.0.0.0',
         hot: true,
         inline: true

@@ -3,7 +3,7 @@
 		<span v-if="status === READY">Ready</span>
 		<span v-if="status === PLAYING">Playing</span>
 		<a v-if="status === PASS" v-on:click.prevent.stop="reset" href>Play again</a>
-		<span class="elapsed">{{ elapsed }} s</span>
+		<span class="elapsed">{{ elapsedMs }} s</span>
 	</div>
 </template>
 

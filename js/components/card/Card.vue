@@ -35,10 +35,11 @@ export default {
 				'flipCard'		
 			]),
 		flip(){
+			console.log('===============')
 			if(this.option.flipped){
 				return;
 			}
-			this.flipCard(this.options);
+			this.flipCard(this.option);
 			this.$emit('flipped', this.option);
 		}
 	},

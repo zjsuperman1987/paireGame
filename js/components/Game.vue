@@ -33,7 +33,7 @@ export default {
         this.reset();
    },
    //子组件注入
-   components: {Chessboard,Status}
+   components: {Chessboard,Status,Dashboard}
 }
 </script>
 

@@ -35,14 +35,14 @@ export default {
 	},
 
 	flipCard: function({commit},card) {
+		console.log(card);
 		commit('flip', card);
 	},
 	flipCards: function({commit}, cards) {
-		commit('flip',card);
+		commit('flips',cards);
 	},
 
 	match: function({commit}) {
 		commit(decreaseMatch);
 	}
-
 }
