@@ -28,7 +28,7 @@ export default {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	color: #aea0d1;
+	color: #eae0d1;
 }
 
 span {

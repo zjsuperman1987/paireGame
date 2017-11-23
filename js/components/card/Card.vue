@@ -35,7 +35,6 @@ export default {
 				'flipCard'		
 			]),
 		flip(){
-			console.log('===============')
 			if(this.option.flipped){
 				return;
 			}
@@ -71,7 +70,7 @@ export default {
 .card img {
 	display: block;
 	height: 100%;
-	width: 100px;
+	width: 100%;
 	position: absolute;
 	backface-visibility: hidden;
 }

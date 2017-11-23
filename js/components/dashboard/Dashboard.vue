@@ -19,7 +19,7 @@ export default {
 <style scoped>
 .status-bar {
 	width: 100%;
-	height: 100%;
+	height: 100px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
