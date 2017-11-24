@@ -50,3 +50,4 @@ a {
 	font-size: 15px;
 	font-weight: normal;
 }
+</style>

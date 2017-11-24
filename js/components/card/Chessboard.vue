@@ -54,7 +54,7 @@
 					this.lastCard = null;
 					//触发配对成功的action
 					this.match();
-					//如果棋盘内所有牌都配对完毕，出发状态变更action,并告知过关
+					//如果棋盘内所有牌都配对完毕，触发状态变更action,并告知过关
 					return this.leftMatched || this.updateStatus(STATUS.PASS);
 				}
 				//之前有牌被翻了，当前翻的这张花色与之前不同

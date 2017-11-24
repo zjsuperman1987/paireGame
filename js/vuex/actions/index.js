@@ -43,6 +43,7 @@ export default {
 	},
 
 	match: function({commit}) {
-		commit(decreaseMatch);
+		console.log('===============')
+		commit('decreaseMatch');
 	}
 }

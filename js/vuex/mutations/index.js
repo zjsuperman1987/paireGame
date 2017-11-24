@@ -11,7 +11,7 @@ export default {
 		st.status = newStatus;
 	},
 
-	decreaseMath(st) {
+	decreaseMatch(st) {
 		st.leftMatched--;
 	},
 
